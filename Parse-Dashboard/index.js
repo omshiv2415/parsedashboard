@@ -13,9 +13,9 @@ const express = require('express');
 const parseDashboard = require('./app');
 
 const program = require('commander');
-program.option('--appId [pcOTExVraplH4dtiPpJ091u6seGWArek8eYkKK9f]', 'the app Id of the app you would like to manage.');
-program.option('--masterKey [n6DKxJSyNHrvG7EZUfe1dxUmyfjSBL4aIb3ZgAlS]', 'the master key of the app you would like to manage.');
-program.option('--serverURL [https://parsedashboard1.herokuapp.com]', 'the server url of the app you would like to manage.');
+program.option('--appId [appId]', 'the app Id of the app you would like to manage.');
+program.option('--masterKey [masterKey]', 'the master key of the app you would like to manage.');
+program.option('--serverURL [serverURL]', 'the server url of the app you would like to manage.');
 program.option('--appName [appName]', 'the name of the app you would like to manage. Optional.');
 program.option('--config [config]', 'the path to the configuration file');
 program.option('--host [host]', 'the host to run parse-dashboard');
