@@ -1,0 +1,10 @@
+{
+  "apps": [
+    {
+      "serverURL": "https://parsedashboard1.herokuapp.com/parse",
+      "appId": "pcOTExVraplH4dtiPpJ091u6seGWArek8eYkKK9f",
+      "masterKey": "n6DKxJSyNHrvG7EZUfe1dxUmyfjSBL4aIb3ZgAlS",
+      "appName": "Easy Route Planner"
+    }
+  ]
+}
